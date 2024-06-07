@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+import math
+
 """
 this is module to add 2 strings
 """
