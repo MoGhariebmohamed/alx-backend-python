@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-this is module string a float
+this is module annotat variables
 """
 
 
