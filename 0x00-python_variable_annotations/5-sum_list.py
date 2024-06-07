@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-this is module annotat variables
+this is module a floor
 """
+from typing import List
 
 
-a: int = 1
-pi: float = 3.14
-i_understand_annotations: bool = True
-school: str = 'Holberton'
+def sum_list(input_list: List[float]) -> float:
+    """
+    method to input list of float retutn float
+    """
+    return sum(input_list)
