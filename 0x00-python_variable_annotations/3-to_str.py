@@ -4,8 +4,7 @@ this is module string a float
 """
 
 
-def to_str(n: float) -> str:
-    """
-    method to input float retutn the string of float
-    """
-    return str(n)
+a: int = 1
+pi: float = 3.14
+i_understand_annotations: bool = True
+school: str = 'Holberton'
