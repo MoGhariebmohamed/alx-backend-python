@@ -2,12 +2,12 @@
 import math
 
 """
-this is module to add 2 strings
+this is module string a float
 """
 
 
-def floor(n: float) -> int:
+def to_str(n: float) -> str:
     """
-    method to input float retutn the floor of float
+    method to input float retutn the string of float
     """
-    return int(n)
+    return str(n)

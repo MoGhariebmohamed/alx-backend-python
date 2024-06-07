@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-this is module to add 2 strings
+this is module a floor
 """
 
 
