@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """
-this is module to add 2 floats
+this is module excersise on coroutine
 """
+import asyncio
+import random
 
 
-def add(a: float, b: float) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """
-    method to input 2 float and output float
+        method to delay max_delay to run
     """
-    return a + b
+    delay_time = random.random() * max_delay
+    await asyncio.sleep(delay_time)
+    return delay_time
