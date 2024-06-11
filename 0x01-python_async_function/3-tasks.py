@@ -15,4 +15,4 @@ def task_wait_random(max_delay: int) -> asyncio.Task:
         max_delay: the delaying rnadom max
     """
 
-    return asyncio.creat_task(wait_random(max_delay))
+    return asyncio.create_task(wait_random(max_delay))
