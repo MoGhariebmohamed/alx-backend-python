@@ -5,11 +5,11 @@ this is module excersise on coroutine
 
 import asyncio
 import random
-from typing import Generator
+from typing import List
 async_generator = __import__('0-async_generator').async_generator
 
 
-async def async_comprehension() -> Generator[float, None, None]:
+async def async_comprehension() -> List[float]:
     """
         method to generate random nuber
         random() to generate random float
